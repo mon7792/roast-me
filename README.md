@@ -1,15 +1,15 @@
-# roast-me
+# roast-me-app
 
-To install dependencies:
+`Roast Me App` is a sarcastic character animation tool used to experiment the possibility of realtime ai and animation.
 
-```bash
-bun install
+## SAMPLE COMMANDS
+
+
+`rhubarb` lip sync command to generate the phonetic output.
+```sh
+    ./program/Rhubarb-Lip-Sync-1.13.0-macOS/rhubarb -r phonetic -f json -o assets/out/output-ph.json assets/in/ev.wav
 ```
 
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.33. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## TODO
+1. Install the rhubarb lip sync in ubuntu.
+2. 
